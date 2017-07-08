@@ -1,0 +1,797 @@
+/* Small only */
+
+/* header mobile */ 
+	.top_nav {
+		position: fixed;
+		width: 100%;
+		height: 50px;
+		margin: auto;
+		z-index: 500;
+		text-align: center;
+		background-color: #ffffff; 
+		}
+
+	.top_nav_logo { 
+		display: inline-block; 
+		position: relative;
+		vertical-align: top; 
+		margin-top: 11px; 
+		margin-left: 5px; 
+		}
+
+	.top_nav_logo img {
+		width: 97px;
+		height: 25px; 
+		vertical-align: top; 
+		}
+		
+	.hdr_shadow {
+		position: fixed;
+		top: 50px; /* header height mobile */
+		width: 100%;
+		background-image: url("../images/header_shadow.png");
+		background-repeat: repeat-x;
+		height: 10px;
+		margin: auto;
+		padding: 0;
+		z-index: 500;
+		}
+		
+	.top_nav_menu {
+		display: block;
+		float: right;
+		margin-top: 14px;
+		margin-right: 10px; 
+		vertical-align: top; 
+		}
+		
+	.top_nav_menu img {
+		width: 24px;
+		height: 19px; 
+		}
+		
+	/* mobile menu */
+	.mobile_menu {
+		clear: both;
+		position: relative;
+		top: 10px;
+		display: block;
+		background-color: #ffffff;
+		width: 80%;
+		z-index: 100;
+		text-align: left;
+		margin: auto;
+		border: 0;
+		-webkit-box-shadow: rgba(0,0,0,.1) 0px 6px 5px 3px;
+		-moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,.1);
+		box-shadow: 0px 6px 5px 3px rgba(0,0,0,.1);
+		box-sizing: border-box;
+		}
+
+	ul.mobile_menu_links {
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		}
+
+	.mobile_menu_links li {
+		border-bottom: 1px solid #ebebeb;
+		margin: 0;
+		}
+
+	.mobile_menu_links li a {
+		display: block;
+		padding: 0;
+		margin: 0;
+		padding-left: 20px;
+		box-sizing: border-box;
+		font-size: 14px;
+		color: #999999;
+		font-family: NolanNext-Bold;
+		font-style: normal;
+		font-weight: normal;
+		height:100%;
+		padding: 13px;
+		}
+
+	.mobile_menu {
+		 display: none;
+		}
+
+	#hamburger_menu {
+		display: block;
+		}
+
+	#hamburger_menu_close {
+		display: none;
+		}
+
+	
+/* top main mobile */
+	.top_main_section { 
+		position: relative; 
+		height: 240px; 
+		}
+
+	.top_main {
+		position: relative;
+		width: auto;
+		background-image: url("../images/main/main_image_interior.jpg");
+		background-repeat: no-repeat;
+		height: 240px;
+		margin: auto; 
+		margin-top: 50px;  /* header height mobile */
+		padding: 0;
+		background-size: cover; 
+		background-position: 50%; 
+		} 
+		
+	.top_main_content {
+		position: absolute;
+		top: 15px;
+		left: 0;
+		width: 100%;
+		}
+
+	.top_main_content h1 {
+		font-size: 1.625rem; /* 26px */ 
+		text-shadow: rgba(0,0,0,.7) 3px 3px 10px; 
+		padding-left: 50px; 
+		padding-right: 50px; 
+		}
+
+	.top_main_content_desc {
+		padding-top: 10px;
+		font-size: .875rem;  /* 14px */ 
+		color: #333333;
+		line-height: 1.32em;
+		text-align: left;
+		padding-right: 30px;
+		padding-left: 30px;
+		}
+		
+/* top title */
+	.top_title_section { 
+		font-size: .875rem; /* 14px */
+		line-height: 1.4em; 
+		padding-top: 30px; 
+		padding-right: 60px; 
+		padding-bottom: 30px; 
+		padding-left: 60px; 
+		letter-spacing: -.01em; 
+		}
+
+/* intro mobile */ 
+	.intro {
+		width: 100%;
+		max-width: none;
+		min-width: 200px;
+		margin: auto;
+		padding-top: 45px;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center;
+		}
+
+	.intro h2 {
+		font-size: 1.250rem; /* 20px */ 
+		line-height: 1.250em; 
+		padding-bottom: 10px;
+		text-align: center;
+		width: 270px;
+		margin: auto;
+		}
+
+	.intro h2 span {
+		display: block;
+		}
+
+	.intro_desc {
+		font-size: .875rem; /* 14px */ 
+		line-height: 1.2em;
+		color: #666666;
+		padding: 0 30px 0 30px;
+		text-align: left;
+		}
+
+	.intro_link {
+		padding-top: 20px;
+		padding-bottom: 0;
+		font-size: .813rem; /* 13px */ 
+		font-weight: bold;
+		}
+		
+/* videos mobile */ 
+	.media_video_section {
+		width: 100%;
+		margin: auto;
+		padding-bottom: 60px;
+		}
+
+	.media_video {
+		width: 267px;
+		display: block;
+		padding-top: 0;
+		padding-right: 0;
+		vertical-align: top;
+		margin: auto;
+		}
+		
+	.media_video_fill {
+		width: 267px;
+		display: block;
+		padding-top: 0;
+		padding-right: 0;
+		vertical-align: top;
+		margin: auto;
+		}
+
+	.media_video img {
+		width: 267px;
+		display: block;
+		padding-top: 30px;
+		padding-right: 0;
+		vertical-align: top;
+		}
+
+	.media_heading {
+		font-size: .813rem; /* 13px */ 
+		font-weight: bold;
+		padding-top: 9px;
+		text-align: left;
+		line-height: 1.2em;
+		}
+
+	.media_desc {
+		font-size: .813rem; /* 13px */ 
+		color: #666666;
+		padding-top: 2px;
+		text-align: left;
+		line-height: 1.2em;
+		}
+
+/* companies mobile */
+	.companies_section { 
+		padding-top: 45px; 
+		padding-bottom: 50px; 
+		margin-bottom: 3px; 
+		}
+		
+	.companies_section h2 { 
+		font-size: 1.063rem; /* 17px */ 
+		padding-bottom: 17px; 
+		}
+		
+	.companies_section#all_companies h2 { 
+		font-size: 1.375rem; /* 22px */
+		padding-top: 40px; 
+		padding-bottom: 17px; 
+		}
+
+	.companies_logo { 
+		width: 100px; 
+		height: 100px; 
+		margin: auto; 
+		margin-top: 6px;
+		margin-right: 3px; 
+		margin-left: 3px; 
+		vertical-align: top; 
+		}
+		
+	#all_companies .companies_logo { 
+		width: 100px; 
+		height: 100px; 
+		}
+
+	.companies_logo img {
+		padding-top: 20px; 
+		width: 100px; 
+		}
+		
+	#all_companies .companies_logo img { 
+		padding-top: 20px; 
+		}
+
+	.companies_fill { 
+		width: 100px;
+		font-size: 1px;
+		margin-right: 3px; 
+		margin-left: 3px; 
+		text-align: center; 
+		}
+		
+	#all_companies .companies_fill { 
+		width: 100px;
+		}
+		
+	.title_subheading { 
+		text-align: center; 
+		font-size: 1.125rem; /* 18px */
+		line-height: 1.4em; 
+		color: #666666; 
+		padding-bottom: 30px; 
+		}
+		
+	
+/* ipo companies mobile */ 
+	.ipo_companies_section { 
+		padding-top: 45px; 
+		padding-bottom: 50px; 
+		margin-bottom: 3px; 
+		}
+		
+	.ipo_companies_section h2 { 
+		font-size: 1.063rem; /* 17px */ 
+		padding-bottom: 17px; 
+		}
+		
+	.ipo_companies_box { 
+		position: relative; 
+		width: 100px;
+		height: 100px; 
+		margin-top: 6px;
+		margin-right: 3px; 
+		margin-left: 3px; 
+		vertical-align: top; 
+		font-size: 0.563rem; /* 9px */ 
+		}
+		
+	.ipo_companies_fill {
+		width: 100px;
+		display: inline-block;
+		font-size: 1px;
+		margin-right: 3px; 
+		margin-left: 3px; 
+		}
+
+	.ipo_companies_logo {
+		padding-top: 5px;
+		}
+
+	.ipo_companies_box_desc {
+		position: absolute;
+		width: 90px;
+		bottom: 8px;
+		left: 5px;
+		text-align: center; 
+		line-height: 1.3em; 
+		}
+		
+		
+/* management mobile */
+	.management_section { 
+		padding-top: 45px; 
+		padding-bottom: 0; 
+		}
+		
+	.management_section h2 { 
+		font-size: 1.063rem; /* 17px */ 
+		padding-bottom: 17px; 
+		}
+		
+	.management_box {
+		width: 120px; 
+		margin-top: 25px;
+		margin-right: 12px; 
+		margin-left: 12px; 
+		}
+
+	.management_fill {
+		width: 120px;
+		margin-right: 12px; 
+		margin-left: 12px; 
+		}
+
+	.management_image img {
+		width: 95px; 
+		height: 95px; 
+		}
+
+	.management_name {
+		font-weight: bold;
+		font-size: .688rem; /* 11px */
+		padding-top: 6px;
+		padding-bottom: 1px;
+		}
+
+	.management_title {
+		font-size: .625rem; /* 10px */
+		}
+		
+	.hr_white {
+		width: 100%;
+		max-width: none;
+		height: 2px;
+		font-size: .01em;
+		margin: auto; 
+		margin-top: 40px; 
+		margin-bottom: 40px; 
+		}
+	
+	/* extends rule on mobile */ 
+	.management_section_wrapper { 
+		padding-right: 0; 
+		padding-left: 0; 
+		}
+		
+		
+/* board mobile */ 
+	.board_section { 
+		padding-top: 0; 
+		padding-bottom: 0; 
+		}
+		
+	.board_section h2 { 
+		font-size: 1.063rem; /* 17px */ 
+		padding-bottom: 17px; 
+		}
+
+	.board_box {
+		width: 92px;
+		margin-top: 20px;
+		margin-right: 26px; 
+		margin-left: 26px; 
+		}
+
+	.board_fill {
+		width: 0;
+		font-size: 1px;
+		margin-right: 0; 
+		margin-left: 0; 
+		}
+
+	.board_image img {
+		width: 84px; 
+		height: 84px; 
+		}
+
+	.board_name {
+		font-weight: bold;
+		font-size: .625rem; /* 10px */
+		padding-top: 6px;
+		padding-bottom: 1px;
+		}
+		
+
+/* advisors mobile */ 
+	.advisors_section { 
+		padding-top: 0; 
+		padding-bottom: 50px; 
+		}
+		
+	.advisors_section h2 { 
+		font-size: 1.063rem; /* 17px */ 
+		padding-bottom: 17px; 
+		}
+				
+	.advisors_box {
+		width: 92px;
+		margin-top: 20px;
+		margin-right: 26px; 
+		margin-left: 26px; 
+		}
+
+	.advisors_fill {
+		width: 0;
+		font-size: 1px;
+		margin-right: 0; 
+		margin-left: 0; 
+		}
+
+	.advisors_image img {
+		width: 84px; 
+		height: 84px; 
+		}
+
+	.advisors_name {
+		font-weight: bold;
+		font-size: .625rem; /* 10px */
+		padding-top: 6px;
+		padding-bottom: 1px; 
+		}
+	
+	.advisors_title {
+		font-size: .625rem; /* 10px */
+		}
+		
+		
+/* careers mobile */ 
+	.careers_section { 
+		text-align: center; 
+		padding-top: 50px; 
+		padding-bottom: 50px; 
+		}
+		
+	.careers_image img { 
+		width: 100%; 
+		max-width: 792px;
+		height: auto;
+		}
+		
+	.careers_section h2 { 
+		font-size: 1.188rem; /* 19px */
+		padding-top: 30px; 
+		padding-bottom: 15px; 
+		}
+		
+	.careers_desc {
+		width: 100%;
+		max-width: none;
+		font-size: .875rem; /* 14px */ 
+		line-height: 1.3em; 
+		text-align: left; 
+		padding: 0 30px 0 30px; 
+		}
+		
+	.careers_link, .companies_link {
+		padding-top: 15px;
+		padding-bottom: 5px; 
+		padding-left: 30px; 
+		font-weight: bold; 
+		font-size: .813rem; /* 13px */ 
+		text-align: left; 
+		}
+		
+	.companies_link { 
+		padding-top: 30px; 
+		padding-left: 0; 
+		text-align: center; 
+		}
+		
+		
+/* location mobile */		
+	.location {
+		display: none;
+		}
+		
+	.overlay_map {
+		display: none;
+		}
+
+	.location_mobile {
+		display: block;
+		width: 100%;
+		}
+
+	.overlay_map_mobile {
+	   background:transparent;
+	   position:relative;
+	   width:100%;
+	   height:192px; /* your iframe height */
+	   top:192px;  /* your iframe height */
+	   margin-top:-192px;  /* your iframe height */
+	   z-index: 100;
+	   }
+	   
+	   
+	   
+/* contact mobile */ 
+	.contact_section { 
+		text-align: left; 
+		padding-top: 30px; 
+		padding-right: 30px; 
+		padding-bottom: 45px; 
+		padding-left: 30px; 
+		}
+		
+	.contact_info {
+		display: inline-block; 
+		font-size: .750rem; /* 12px */
+		line-height: 1.3em; 
+		}
+
+	.contact_info h3 {
+		font-size: .813rem; /* 13px */ 
+		}
+		
+	.parking_link {
+		font-size: .813rem; /* 13px */
+		font-weight: bold; 
+		}
+	
+	.contact_questions {
+		font-size: .875rem; /* 14px */
+		line-height: 1.2em;
+		color: #666666;
+		border-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 30px;
+		padding-top: 10px;
+		padding-bottom: 30px; 
+		text-align: left; 
+		}
+
+	.contact_btn {
+		padding-top: 17px; 
+		text-align: center; 
+		}
+
+	.contact_btn a { 
+		display: block; 
+		color: #ffffff;
+		background-color: #5ac1f5; 
+		-webkit-border-radius: 3px; 
+		-moz-border-radius: 3px; 
+		border-radius: 3px;
+		padding: 17px 0 17px 0;
+		color: #ffffff;
+		font-size: .875rem; /* 14px */
+		letter-spacing: .03em; 
+		font-weight: bold; 
+		}
+		
+	#contact h1 {
+		font-size: 1.375rem; /* 22px */
+		padding-top: 100px; 
+		padding-bottom: 0px;
+		}
+		
+		
+		
+/* footer mobile */
+	.footer_section { 
+		padding-top: 50px; 
+		padding-bottom: 40px;  
+		}
+
+	.footer_idealab_social {
+		padding-bottom: 33px;
+		}
+
+	.footer_idealab_social img {
+		width: 61px;
+		height: 35px;
+		padding: 0 13px 0 13px;
+		}
+
+	.footer_idealab_links a { 
+		display: block; 
+		font-size: .750rem; /* 12px */
+		padding: 0 10px 0 10px; 
+		padding-left: 30px; 
+		line-height: 3em; 
+		text-align: left; 
+		}
+
+	.hr_grey {
+		display: none; 
+		}
+		
+	.footer_idealab_copyright { 
+		font-size: .625rem; /* 10px */
+		padding-top: 0;
+		}
+		
+/* privacy terms mobile */
+.privacy, .terms {
+	width: 90%;
+	margin: auto; 
+	padding-top: 50px;
+	padding-bottom: 75px; 
+	}
+
+.privacy h1 { 
+	padding-top: 50px;
+	font-size: 20px;
+	}
+
+.privacy h2 {
+	font-size: 11px;
+	line-height: 1.4em;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	padding-top: 24px;
+	padding-bottom: 30px;
+	text-align: left;
+	}
+
+.privacy_content {
+	color: #666666;
+	font-size: 11px;
+	line-height: 1.4em;
+	}
+
+.privacy_content .bodysubtitle {
+	font-size: 13px;
+	color: #333333;
+	font-weight: bold;
+	padding-bottom: 4px;
+	}
+
+.privacy_content b {
+	color: #333333;
+	}
+
+
+.privacy_content ul {
+	margin: 0;
+	padding: 20px
+	}
+
+.privacy_content ul li {
+	padding-bottom: 15px;
+	}
+
+.terms {
+	color: #666666;
+	font-size: 11px;
+	line-height: 1.4em;
+	}
+
+.terms h1 {
+	font-size: 20px; 
+	padding-top: 50px; 
+	padding-bottom: 30px;
+	}
+
+.terms .bodysubtitle {
+	font-size: 13px;
+	padding-bottom: 4px;
+	}
+
+ol.sublista {
+	margin: 0;
+	padding-left: 20px;
+	}
+	
+
+/* not found */
+.not_found {
+	width: 75%;
+	margin: auto;
+	padding-top: 0;
+	padding-bottom: 75px;
+	text-align: center; 
+	}
+
+.not_found h1 {
+	font-size: 20px; 
+	}
+
+.not_found_content {
+	color: #666666;
+	font-size: 11px;
+	line-height: 1.4em; 
+	text-align: center; 
+	min-height: 200px;
+	}
+
+
+/* jobvite */ 
+.jobvite {
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	}
+
+.jobvite h1 {
+	font-size: 19px;
+	padding-bottom: 30px;
+	}
+
+.jobvite h2 {
+	font-size: 14px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	}
+
+.jobvite .hr_lt_grey {
+	margin-top: 40px;
+	width: 100%;
+	max-width: none;
+	height: 2px;
+	background-color: #f1f1ea;
+	font-size: .01em;
+	margin: auto;
+	margin-bottom: 25px;
+	}
