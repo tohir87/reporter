@@ -21,7 +21,7 @@ class CreateReportTable extends Migration
             $table->string('phone');
             $table->Integer('vehicle_id');
             $table->string('comment');
-            $table->string('picture');
+            $table->string('picture')->nullable();
             $table->timestamps();
         });
     }

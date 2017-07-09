@@ -17,9 +17,9 @@ class CreateDriversTable extends Migration
             $table->increments('id');
             $table->string('first_name');
             $table->string('last_name');
-            $table->string('licence_no');
-            $table->datetime('expiry_date');
-            $table->datetime('issue_date');
+            $table->string('licence_no')->nullable();
+            $table->date('expiry_date');
+            $table->date('issue_date');
             $table->timestamps();
         });
     }

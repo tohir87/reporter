@@ -20,6 +20,7 @@ class CreateCompaniesTable extends Migration
             $table->string('email');
             $table->string('first_name');
             $table->string('last_name');
+            $table->tinyInteger('status')->default(1);
             $table->timestamps();
         });
     }
